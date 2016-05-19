@@ -30,3 +30,8 @@
 
 # Debug files
 *.dSYM/
+/Debug
+/SA_Report
+
+# Tizen
+.exportMap

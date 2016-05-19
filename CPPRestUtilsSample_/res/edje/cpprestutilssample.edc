@@ -1,0 +1,46 @@
+collections {
+   styles {
+      style {
+         name: "status_textblock_style";
+         base: "font=Tizen:style=Regular text_class=tizen align=center font_size="20" color=#FFFFFF";
+      }
+   }
+   group{ name: "main";
+      parts {
+         part { name: "txt.result";
+            type: TEXTBLOCK;
+            description { state: "default" 0.0;
+               rel1 {
+                  relative: 60/360 50/360;
+               }
+               rel2 {
+                  relative: 290/360 280/360;
+               }
+               align: 0.5 0.5;
+               text {
+                  style: "status_textblock_style";
+                  text: "...";
+               }
+            }
+         }
+         part { name: "txt.status";
+            type: TEXT;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+               rel1 {
+                  relative: 60/360 300/360;
+               }
+               rel2 {
+                  relative: 300/360 (300 + 30)/360;
+               }
+               align: 0.5 0.5;
+               text {
+                  size: 20;
+                  text: "Ready";
+               }
+               color: 0 255 255 255;
+            }
+         }
+      }
+   }
+}
