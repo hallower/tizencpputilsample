@@ -32,6 +32,3 @@
 *.dSYM/
 /Debug
 /SA_Report
-
-# Tizen
-.exportMap

@@ -1,5 +1,5 @@
-# tizencpputilsample
-Tizen Native Sample REST Client application.
+# Tizen Sample REST Client Sample
+Tizen Native Sample REST Client application
 
 ## Description
 This project is a sample REST client application which is displaying weather information in the Gear S2.
