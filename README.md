@@ -1,4 +1,4 @@
-# Tizen Sample REST Client Sample
+# Tizen Simple REST Client Sample
 Tizen Native Sample REST Client application
 
 ## Description
